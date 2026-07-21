@@ -14,4 +14,4 @@ else:
     grade="fail"
 
 
-print(f" student is {grade}")
+print(f" student got {grade}")
