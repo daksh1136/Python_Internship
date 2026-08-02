@@ -1,2 +1,3 @@
-print("hello world")
-print("fuck u")
+
+hi="greeing"
+print(hi)
