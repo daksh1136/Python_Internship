@@ -1,6 +1,11 @@
-count = 20
-a, b = 0, 1
+import pandas as pd
 
-for _ in range(count):
-	print(a)
-	a, b = b, a + b
+data = {
+    "Name": ["Daksh", "Rahul", "Aman"],
+    "Age": [21, 20, 22],
+    "Course": ["CSE", "AIML", "CSE"]
+}
+
+df = pd.DataFrame(data)
+
+print(df)
